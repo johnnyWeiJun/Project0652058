@@ -5,14 +5,14 @@
 
 int main(void) 
 {
-	int integera;
-	int integerb;
-	int sum;
+	int integera;/*宣告整數變數a*/ 
+	int integerb;/*宣告整數變數b*/
+	int sum;/*宣告總和*/
 	printf("輸入第一個整數\n");
-	scanf("%d",&integera);
+	scanf("%d",&integera);/*輸入第一個整數*/ 
 	printf("輸入第二個整數\n");
-	scanf("%d",&integerb);
-	sum=integera+integerb;
-	printf("總和為%d",sum);
+	scanf("%d",&integerb);/*輸入第二個整數*/ 
+	sum=integera+integerb;/*總和=整數a+整數b*/ 
+	printf("總和為%d",sum);/*顯示總和*/
 	return 0;
 }
